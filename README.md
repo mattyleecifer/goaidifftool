@@ -1,4 +1,4 @@
-*goaidifftool*
+# goaidifftool
 
 This tool allows you to provide a prompt and a text and outputs a diff between the input text and the AI-generated text. It is designed for writers and editors to manage editing large bodies of AI-edited text.
 
