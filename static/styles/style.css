@@ -1,0 +1,23 @@
+html, body {
+    font-size: 18px;
+    /* color: rgb(232, 230, 227); */
+    background-color: #202324;
+    }
+
+.add {
+    color: green;
+}
+
+.add:hover {
+    background-color: red;
+    color: black;
+  }
+
+.delete {
+    color: red;
+}
+
+.delete:hover {
+    background-color: green;
+    color: black;
+  }
