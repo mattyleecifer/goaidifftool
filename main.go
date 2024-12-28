@@ -7,12 +7,11 @@ import (
 	"net/http"
 	"text/template"
 
-	"github.com/sergi/go-diff/diffmatchpatch"
+	"go-diff/diffmatchpatch"
 )
 
 func main() {
 	agent := newAgent()
-
 	http.HandleFunc("/", RequireAuth(index))
 	http.HandleFunc("/delete/", RequireAuth(delete))
 	http.Handle("/static/", http.FileServer(http.FS(hcss)))
